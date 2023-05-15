@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify User Can Sign up",
+        "description": "",
+        "id": "this-is-finalproject2-sign-up-functionality;verify-user-can-sign-up",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2135527500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Demoblaze \"\u003cURL\u003e\"application URL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 16
+                }
+              ],
+              "location": "FinalProjectSignUP.open_Demoblaze_application_URL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84762900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click Sign up Link",
+            "match": {
+              "location": "FinalProjectSignUP.click_Sign_up_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 643188400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Username and password and click Sign up2 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 45
+                }
+              ],
+              "location": "FinalProjectSignUP.enter_Username_and_password_and_click_Sign_up_button(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 119875200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify User can Sign up successfully",
+            "match": {
+              "location": "FinalProjectSignUP.verify_User_can_Sign_up_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is FinalProject2 Sign up Functionality",
+    "description": "",
+    "id": "this-is-finalproject2-sign-up-functionality",
+    "keyword": "Feature",
+    "uri": "FinalProjectSignUP.feature"
+  }
+]
